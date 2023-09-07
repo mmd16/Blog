@@ -18,7 +18,7 @@ const AuthLinks = () => {
           <Link href="/write" className={styles.link}>
             Write
           </Link>
-          <span className={styles.link}>
+          <span className={styles.link} onClick={()=>console.log("")}>
             Logout
           </span>
         </>
@@ -45,6 +45,6 @@ const AuthLinks = () => {
       )}
     </>
   );
-}
+};
 
 export default AuthLinks
